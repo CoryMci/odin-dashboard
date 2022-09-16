@@ -79,4 +79,88 @@ ul {
 }
 
 
+/* Header */
 
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 30px;
+}
+
+.header .material-symbols-outlined {
+    font-size: 30px;
+}
+.searchbar {
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 98%;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    background-color:rgb(184, 197, 197);
+}
+
+.account {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+}
+
+.account img {
+    height:50px;
+    width:50px;
+}
+
+.account .name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr;
+    font-size: 14px;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.greeting img {
+    height:75px;
+    width:75px;
+    grid-row: 1 / 3;
+    padding-right: 15px;
+}
+
+.greeting .name {
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+button {
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    background-color:rgb(6, 171, 236);
+    border-style: none;
+    font-size: 16px;
+    font-weight: 700;
+}
